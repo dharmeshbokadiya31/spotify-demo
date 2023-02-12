@@ -1,7 +1,6 @@
 import React from 'react';
 
-const TrackSearchResult = ({ detail, key, chooseTrack }) => {
-    console.log(detail, "FFFFFFFFFF")
+const TrackSearchResult = ({ detail, chooseTrack }) => {
     return (
         <div 
           className='d-flex m-2 align-items-center'
